@@ -1,5 +1,6 @@
 /** Small applet for controlling an RGB-LED which is connected to
- *  an Arduino. */
+ *  an Arduino. Just use Example->Firmata->StandardFirmata as
+ *  Arduino sketch. */
 import controlP5.*;
 import processing.serial.*;
 import cc.arduino.*;
@@ -7,6 +8,7 @@ import cc.arduino.*;
 Arduino arduino;
 ControlP5 cp5;
 
+/* Port configuration. */
 int led_r = 9;
 int led_g = 15;
 int led_b1 = 12;
